@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    max-width: 650px;
+    max-height: auto;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    padding-left:  30px;
+    background-color:  #003472;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.mainHeader{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ec6608;
+    align-items: center;
+}
+
+.mainHeader h2{
+    color: white;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.mainHeader img{
+    padding-right: 20px;
+}
+
+main{
+    background-color:  #003472;
+    padding-bottom: 40px;
+    background-image: url("../assets/background_body.png");
+    background-repeat: no-repeat;
+    background-position-y: 150%;
+}
+
+.card{
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    padding-bottom: 0;
+    box-shadow: 10px 5px 25px rgba(0, 0,0, 0.3);
+    border: solid 0.5px #c3c3c3;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+table{
+    padding-bottom: 60px;
+}
+
+thead{
+    display: block;
+
+}
+
+tbody{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+tr{
+    display: flex;
+}
+
+th{
+    font-weight: normal;
+    padding-right: 5px;
+}
+
+td{
+    font-weight: bold;
+}
+
+.cardButtons{
+    display: flex;    
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+
+.cardButtons button{
+    margin-bottom: 15px;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button1{
+    background-color: #ec6608;
+}
+
+#button2{
+    background-color: #37bb84;
+    justify-content: space-between;
+}
+
+.imageButton{
+    width: 10%;
+}
+
+footer{
+    background-color:  #003472;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+

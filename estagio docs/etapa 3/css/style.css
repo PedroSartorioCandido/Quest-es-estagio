@@ -1,0 +1,424 @@
+/*PRECISO POR O POINT CLICK E FAZER CSS CUIDADO COM BACKGROUND DO FALE CONOSCO;*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: "OpenSans";
+}
+body{
+    max-width: 865px;
+    max-height: auto;
+    margin: auto;
+}
+/* ----------------- aqui é nav------- */
+
+nav{
+    display: flex;
+    padding: 30px;
+    background-color: rgb(219, 212, 212);
+}
+#nav_top{
+    display: flex;
+    text-align: center;
+    margin-left: 80px;
+    list-style: none;
+}
+.topico{
+    padding: 20px;
+    font-size: 12px;
+}
+#logo_anc{
+    height:40px;
+}
+.drop{
+    display: none;
+    list-style: none;
+}
+.dropdowbutton:hover .drop{
+    display: block;
+}
+
+
+/* ------------- aqui é o super banner ------ */
+.super_banner{
+        background-color: #569ac4;
+        background-image:url(../assets/Background\ 3.png);;
+        text-align: center;  
+        padding: 30px;       
+      }
+      
+.tit_sup{
+
+        font-size: 40px;
+        font-family: "OpenSans";
+        font-weight: normal;
+        color: whitesmoke;
+}
+#tit_div{
+    font-weight: bold; 
+}
+.tit_saiba{
+    font-size: 24px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);     
+}
+.msg_lara{
+    display: inline;
+    color: #ffc800;
+}
+.button{
+    margin: auto;
+    border: none;
+    padding:10px;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+#button1{
+    background-color: #ffc800;
+    margin-top: 25px;
+}
+
+/*---------------- aqui é o sobre nos----- */
+.Sobre_nos{
+    background-color: #6ab7e7;
+    text-align: center;  
+    padding: 30px; 
+    
+}
+#tit_sobre{
+    font-size: 24px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    display: block;   
+}
+#sub_sobre{
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: white;
+}
+.img_negrito{
+    display: inline;
+    font-weight: bold;
+}
+.cont_sobre{
+        border-radius: 8px;
+        display: flex;
+        padding: 30px;
+    
+
+}
+.img_sobre{
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 190px;
+
+}
+#Clicando_aqui{
+        font-size: 12px;
+        font-family: "OpenSans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+      }
+/* ---------- aqqui é o nossos parceiros------ */
+.Nossos_parceiros{
+    text-align: center;
+    padding-bottom: 40px;
+    background-color: rgb(219, 212, 212);
+}
+.tit_nossos{
+    font-size: 24px;
+    padding: 40px;
+    font-family: "OpenSans";
+    color: #569ac4;
+    display: block;   
+    }
+.cont_nossos{
+    border-style: solid;
+    border-color: #c2c2c2;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px;
+    width: 500px;
+}
+.cont_nos{
+    display: flex;
+}
+
+.msg_nossos_par{
+    font-size: 16px;
+    text-align: left; 
+    color: black;  
+}
+#acesse{
+    text-decoration: underline;
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: black;
+    line-height: 1.5;
+      }
+.button{
+    margin: auto;
+    border: none;
+    padding:10px;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+#button_n1{
+    background-color: #569ac4;
+}
+#button_n2{
+    background-color: #569ac4;
+    margin-top: 50px;
+}
+/* ----------------- aqui é beneficios------- */
+.benef{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 50px;
+}
+#bene{    
+    font-size: 24px;
+    font-family: "OpenSans";
+    color: #569ac4; 
+    }
+
+
+.cont_bene{
+    display: flex;
+    color: white;
+    padding: 30px;
+    align-items: center;   
+
+}
+.img_bene{
+    background-color: white;
+    margin: 10px;
+    margin-left: 5px;
+
+}
+.altu_fot{
+    width: 150px;
+    height: 60px;
+}
+/* ----------------- aqui é produtos------- */
+.produt{
+    text-align: center;
+    
+}
+#tit_produt{    
+    font-size: 24px;
+    font-family: "OpenSans";
+    color: #569ac4; 
+}
+.cont_produt{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+.img_prod{
+    margin: 40px;
+    height: 50px;
+    width: 120px;
+    margin-left: 10px;
+}
+.img_produt{
+    background-color: white;
+}
+.Ans_produ{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;  
+}
+/* ----------------- aqui é fale conosco------- */
+.fale{
+    text-align: left;
+    background-image: url(../assets/multiethnic-call-centre-operators-with-headsets-ta-VGKLYFC.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-top: 0px;
+      }
+.background_fale{
+    text-align: center;
+    background-color: rgb(86, 154, 196);
+    height: 850px;
+    width: 530px;
+
+}
+.tit_fale{
+    font-size: 24px;
+    font-family: "OpenSans";
+    color: white; 
+}
+.sub_fale{
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: white; 
+}
+
+.fale_cono{
+    padding: 10px;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 120px;
+    margin-top: 40px;
+      }
+      
+.sub_fale{
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(71, 71, 71);
+    text-align: center;
+}
+    
+.msg_azul{
+    color: blue;
+}
+
+.msg_tel{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+
+      
+}
+.msg_ender{
+    color: blue;
+        font-size: 10px;
+        text-align: left;
+}
+#wpp{
+
+    background-color: #29b47e;
+    padding: 5px;
+    height: 40px;
+}
+#wpp2{
+    background:#27d18f;
+    font-size: 12px;
+    color: white;
+    border-radius: 5px;
+}
+#nosso_ender{
+    color: #939393;
+    text-align: left;
+    
+}
+#foto_tel{
+    height: 35px;
+    width: 35px;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+#foto_ender{
+    height: 50px;
+    width: 50px;
+    margin-top: 16px;
+    padding: 5px;
+
+}
+.cont_fale{
+    padding: 5px;
+}
+.bloco_tel{
+    display: flex;
+    padding: 10px;
+}
+.bloco_ender{
+    display: flex;
+    padding: 0px;
+    text-align: left;
+    margin-top: 20px;
+}
+.formInput{
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+}
+.form1{
+    color: white;
+    padding: 20px;
+}
+.nome_form{
+    margin-right: 200px;
+    font-size: 12px;
+}
+.button_form{
+    margin-left: 300px;
+    background-color: rgb(109, 177, 109);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+#nome_msg{
+    margin-right: 90px;
+
+}
+.formInputmsg{
+    padding: 70px;
+    margin-right:0px;
+}
+.linha_ama_fale{
+    background-color: orange;
+    height: 3px;
+    width: 80px;
+    border-radius: 5px;
+    margin-left: 230px;
+
+}
+.linha_ama{
+    background-color: orange;
+    height: 3px;
+    width: 80px;
+    border-radius: 5px;
+    margin-left: 400px;
+
+}
+.linha_bran{
+    background-color: white;
+    height: 3px;
+    width: 80px;
+    border-radius: 5px;
+    margin-left: 380px;
+
+}
+/* ----------------- aqui é footer------- */
+footer{
+    background-color: #274657;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#tit_footer{
+    color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+#logo_marlin{
+    width: 40px;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    margin-bottom: 8px;
+}
+
