@@ -308,12 +308,17 @@ nav{
     background-color: #29b47e;
     padding: 5px;
     height: 40px;
+    margin-top: -20px;
+    margin-bottom: -25px;
+    margin-left: -55px;
 }
 #wpp2{
     background:#27d18f;
     font-size: 12px;
     color: white;
     border-radius: 5px;
+    height: 42px;
+    width:  250px;
 }
 #nosso_ender{
     color: #939393;
